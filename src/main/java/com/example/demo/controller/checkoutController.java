@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173", "http://127.0.0.1:5173"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://127.0.0.1:5173", "https://mrida.online", "https://www.mrida.online"})
 @RequestMapping("/api/checkout")
 public class checkoutController {
 
